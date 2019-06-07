@@ -1,0 +1,1 @@
+$('#flavor-select').dropdown();

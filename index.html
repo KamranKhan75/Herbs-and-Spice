@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Herbs and Spice</title>
+    <link rel="stylesheet" href="css/resources/bootstrap.min.css">
+    <link rel="stylesheet" href="css/resources/fontawesome.min.css">
+    <link rel="stylesheet" href="css/resources/semantic.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="ui container ">
+        <div class="row back-pack">
+            <div class="col">
+                <div class="ui icon input search-bar">
+                    <input type="text" placeholder="Search">
+                    <i class="search icon"></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="row sep">
+            <div class="col">
+                <label for="">Ingredients</label>
+                <select name="ingredients" id="ingredient-select" class="ui fluid multiple search selection dropdown">
+                    <option value="asafoetida">Asafoetida</option>
+                    <option value="achiote">Achiote (Annatto)</option>
+                    <option value="allspice">Allspice</option>
+                    <option value="bay">Bay Leaf</option>
+                </select>
+            </div>
+        </div>
+        <div class="row sep">
+            <div class="col">
+                <label for="">Regions</label>
+                <select name="region" id="region-select" class="ui fluid multiple search selection dropdown">
+                    <option value="indian">India</option>
+                    <option value="latin">Latin</option>
+                    <option value="america">America</option>
+                    <option value="asia">South Asia</option>
+                </select>
+            </div>
+        </div>
+        <div class="row sep">
+            <div class="col">
+                <label for="">Blends</label>
+                <select name="blends" id="blends-select" class="ui fluid multiple search selection dropdown">
+                    <option value="spice">Ajwaira</option>
+                    <option value="lemon">Lemon</option>
+                    <option value="orange">Orange</option>
+                    <option value="herb">Herb</option>
+                </select>
+            </div>
+        </div>
+        <div class="row sep">
+            <div class="col">
+                <label for="">Flavors</label>
+                <select name="flavor" id="flavor-select" class="ui fluid multiple search selection dropdown">
+                    <option value="pungent">Pungent</option>
+                    <option value="bitter">Bitter</option>
+                    <option value="cooling">Cooling</option>
+                    <option value="earthy">Earthy</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/semantic.min.js"></script>
+    <script src="js/manual/ingredients.js"></script>
+    <script src="js/manual/regions.js"></script>
+    <script src="js/manual/blends.js"></script>
+    <script src="js/manual/flavors.js"></script>
+</body>
+
+</html>
