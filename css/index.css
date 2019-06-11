@@ -1,9 +1,12 @@
-.back-pack{
-    margin-top: 100px;
+.back-pack {
+    margin-top: 10px;
 }
-.sep{
-    margin-top:10px;
+
+.sep {
+    margin-top: 10px;
 }
-.search-bar{
-    width: 100%;
+
+.search-bar {
+    min-width: 280px;
+    width: 50%;
 }

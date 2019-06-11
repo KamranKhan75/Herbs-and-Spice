@@ -1,1 +1,0 @@
-$('#blends-select').dropdown();
